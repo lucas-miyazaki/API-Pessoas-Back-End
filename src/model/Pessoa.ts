@@ -34,7 +34,7 @@ export class Pessoa {
     public setNome(_nome: string): void {
         this.nome = _nome;
     }
-    
+
     public getNome(): string {
         return this.nome;
     }
@@ -48,7 +48,7 @@ export class Pessoa {
     public setCpf(_cpf: string): void {
         this.cpf = _cpf;
     }
-    
+
     public getCpf(): string {
         return this.cpf;
     }
@@ -62,7 +62,7 @@ export class Pessoa {
     public setTelefone(_telefone: string): void {
         this.telefone = _telefone;
     }
-    
+
     public getTelefone(): string {
         return this.telefone;
     }
@@ -76,7 +76,7 @@ export class Pessoa {
     public setEndereco(_endereco: string): void {
         this.endereco = _endereco;
     }
-    
+
     public getEndereco(): string {
         return this.endereco;
     }
@@ -90,7 +90,7 @@ export class Pessoa {
     public setAltura(_altura: number): void {
         this.altura = _altura;
     }
-    
+
     public getAltura(): number {
         return this.altura;
     }
@@ -104,7 +104,7 @@ export class Pessoa {
     public setPeso(_peso: number): void {
         this.peso = _peso;
     }
-    
+
     public getPeso(): number {
         return this.peso;
     }
@@ -124,9 +124,9 @@ export class Pessoa {
     }
     public AndarQuilometros(_quilometros: string): void {
         setTimeout(() => {
-        // Lógica de negócio
-        console.log(`${this.nome} está caminhou ${_quilometros} Km`);
-    }, 3000);
+            // Lógica de negócio
+            console.log(`${this.nome} está caminhou ${_quilometros} Km`);
+        }, 3000);
     }
     public Comer(): void {
         // Logica de negócio
@@ -148,6 +148,6 @@ export class Pessoa {
     }
     public cadastroPessoa(Jubileu: Pessoa) {
         // Persistindo os dados
-    console.log(`${Jubileu.nome} cadastrado com sucesso`)
+        console.log(`${Jubileu.nome} cadastrado com sucesso`)
     }
 }
